@@ -1,16 +1,9 @@
 
 
-.greets h1 {
+.greets {
 
-  width: 500px;
-  height: 450px;
-  position: relative;
   text-align: center;
-  top: 200px;
-  right: 0;
-  bottom: 0;
-  left: 300px;
-
+  margin-top: 150px;
 
 
 }
@@ -19,6 +12,36 @@
 .results {
 
 text-align: center;
+
+
+}
+
+.butts {
+
+  width: 260px;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+}
+
+
+.widthBut {
+
+margin-top: 10px;
+width: 50px;
+height: 50px;
+}
+
+.gleichBut {
+
+  width: 105px;
+  height: 50px;
+
 
 
 }
