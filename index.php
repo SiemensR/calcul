@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Bootstrap 101 Template</title>
+  <title>Calculator</title>
 
   <!-- Bootstrap -->
 
@@ -24,10 +24,10 @@
 
   <div class="container">
     <div class="greets">
-      <h1>Here is a calculator</h1>
+      <strong><h1>Calculator</h1></strong>
     </div>
     <div class="results">
-      <input type="text" size="40" id="result" name="result">
+      <input type="text" size="30" id="result" name="result">
     </div>
     <div class="butts">
       <input class="widthBut" type="button" name="one" value="1" onclick="ones()" id="1"></input>
@@ -44,6 +44,8 @@
       <input class="widthBut" type="button" name="minuse" value="-" onclick="minuses()"></input>
       <input class="widthBut" type="button" name="devide" value="/" onclick="devides()"></input>
       <input class="widthBut" type="button" name="multiple" value="*" onclick="multiples()"></input>
+      <input class="widthBut" type="button" name="clearItAll" value="C" onclick="clearAll()"></input>
+      <input class="widthBut" type="button" name="CommaItAll" value="," onclick="comma()"></input>
       <input class="gleichBut" type="button" name="resulte" value="=" onclick="showMeResult()"></input>
 
     </div>
